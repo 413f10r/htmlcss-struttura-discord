@@ -83,14 +83,26 @@ main section .column{
     flex-direction: column;
     align-items: center;
 }
+footer{
+    background-color: var(--color1);
+    height: 300px;
+}
 
-footer.flex div{
+/* footer.flex div{
     flex-basis: calc((100%-25% / 5));
     height: 50px;
     background-color: var(--color1);
-
+    align-items: flex-start;
+    
 }
 
 footer.flex div:first-child{
     flex-basis: 25%;
-}
+  
+} */
+
+footer.link-utili{
+    height: 50px;
+    display: flex;
+    
+} 
