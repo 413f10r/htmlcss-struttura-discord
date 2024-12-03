@@ -42,11 +42,11 @@ header > .flex{
 
 }
 
-.container-text1 h1{
-    /* height: 50px;
+ /* .container-text1 h1{
+    height: 50px;
     width: 50px;
-    background-color: var(--color2)  */
-}
+    background-color: var(--color2) 
+}  */
 
 .container2{
     width: 80%;
@@ -54,22 +54,43 @@ header > .flex{
 
 }
 
-main section.bkg-gray{
+.bkg-gray{
     background-color: var(--color4);
 
+    
 }
-main section{
+.flex{
+    display: flex;
+}
+/* main section{
     height: 80px;
-    padding-block: 20px;
-}
+    
+} */
 
 .flex-basis-small{
     flex-basis: 40%;
     height: 60px;
-    margin-block: 20px;
+    
 }
 
 .flex-basis-big{
     flex-basis: 40%;
     height: 60px;
+}
+
+main section .column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer.flex div{
+    flex-basis: calc((100%-25% / 5));
+    height: 50px;
+    background-color: var(--color1);
+
+}
+
+footer.flex div:first-child{
+    flex-basis: 25%;
 }
