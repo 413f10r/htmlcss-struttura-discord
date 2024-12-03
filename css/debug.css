@@ -1,0 +1,18 @@
+*{
+    outline: 1px solid black;
+}
+
+div, header, body, footer, section, article,aside. nav{
+    outline: 2px solid blue;
+    background-color:  lightsalmon;
+
+} 
+
+body{
+    outline: 2px dashed red;
+
+}
+
+footer{
+    outline: 2px dotted green;
+}

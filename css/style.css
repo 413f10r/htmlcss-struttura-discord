@@ -1,0 +1,47 @@
+:root{
+    --color1:#213F88;
+    --color2:#b21602;
+    --color3:#E5978D;
+}
+
+header{
+
+    height: 300px;
+    padding-block: 15px;
+    background-color: var(--color1);
+
+}
+
+.flex{
+    display: flex;
+    
+}
+
+header > .flex{
+    justify-content: space-around;
+
+}
+
+.logo,
+.menu,
+.button1{
+    
+    height: 50px;
+    width: 50px;
+    background-color: var(--color2)
+}
+
+.main-text1{
+    text-align: center;
+    height:100px ;
+    width: 70%;
+    margin: 0 auto;
+    background-color: var(--color3);
+
+}
+
+.main-text1 h1{
+    /* height: 50px;
+    width: 50px;
+    background-color: var(--color2)  */
+}
