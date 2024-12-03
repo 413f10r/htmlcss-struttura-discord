@@ -2,6 +2,7 @@
     --color1:#213F88;
     --color2:#b21602;
     --color3:#E5978D;
+    --color4:#B3B3B3;
 }
 
 header{
@@ -31,7 +32,8 @@ header > .flex{
     background-color: var(--color2)
 }
 
-.main-text1{
+.container-text1{
+    margin-top: 20px;
     text-align: center;
     height:100px ;
     width: 70%;
@@ -40,8 +42,34 @@ header > .flex{
 
 }
 
-.main-text1 h1{
+.container-text1 h1{
     /* height: 50px;
     width: 50px;
     background-color: var(--color2)  */
+}
+
+.container2{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+main section.bkg-gray{
+    background-color: var(--color4);
+
+}
+main section{
+    height: 80px;
+    padding-block: 20px;
+}
+
+.flex-basis-small{
+    flex-basis: 40%;
+    height: 60px;
+    margin-block: 20px;
+}
+
+.flex-basis-big{
+    flex-basis: 40%;
+    height: 60px;
 }
